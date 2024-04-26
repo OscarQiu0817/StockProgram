@@ -1,6 +1,6 @@
 package trayicon;
 
-import java.awt.TrayIcon;
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -11,6 +11,7 @@ import java.net.URL;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.List;
 
 import javax.imageio.ImageIO;
 
@@ -312,6 +313,9 @@ public class StockProgram  extends Application {
             popup.add(updatePttItem);
             popup.addSeparator();
             popup.add(exitItem);
+
+            // 設定彈出視窗的大小
+            popup.setFont(new Font("TimesRoman", Font.PLAIN, 16));
             trayIcon.setPopupMenu(popup);
 
             tray.add(trayIcon);
