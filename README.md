@@ -1,6 +1,10 @@
 # StockProgram
 看盤程式  by JavaFX
 
+可拖動, 點兩下視窗可縮小
+![image](https://github.com/OscarQiu0817/StockProgram/assets/44765969/aa6d6a3a-2abd-4c72-9bc2-dd25c0fff33e)
+
+
 右鍵點選程式彈出視窗
 ![image](https://github.com/OscarQiu0817/StockProgram/assets/44765969/92ddc93d-2d2f-43d0-bc29-24cc7ca07534)
 
