@@ -9,6 +9,7 @@
 ![image](https://github.com/OscarQiu0817/StockProgram/assets/44765969/92ddc93d-2d2f-43d0-bc29-24cc7ca07534)
 
 功能說明 : 
+
 turn on / off fetch data => 設定是否定期抓資料 ( 預設 4.5 秒 / 次 )
 
 turn on / off notice , 若該次抓取回來的價格, 符合檢查的條件 ( 程式內設定, 預設漲幅 >= 1.5 % ), 是否要跳出提醒視窗
